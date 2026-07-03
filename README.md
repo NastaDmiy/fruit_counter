@@ -1,27 +1,3 @@
-# Структура проекта
-
-fruit_counter
-
-- app.py
-- detector.py
-- requirements.txt
-- README.md
-- history.db
-- .gitignore
-- yolov8n.pt
-
-- templates
-  - index.html
-
-- static
-  - result_*.jpg
-
-- uploads
-
-- venv
-
----
-
 # Fruit Counter — Подсчёт фруктов на изображениях
 
 Веб-приложение для автоматического подсчёта фруктов (бананов и яблок) на изображениях с использованием нейросетевой модели YOLOv8.
@@ -67,6 +43,16 @@ py app.py
 ```
 
 Откройте в браузере: `http://127.0.0.1:5000`
+
+## Структура проекта
+fruit_counter/
+├── app.py
+├── detector.py
+├── requirements.txt
+├── templates/
+│ └── index.html
+├── static/
+└── uploads/
 
 ## Результаты тестирования
 
