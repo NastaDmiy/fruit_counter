@@ -45,27 +45,25 @@ py app.py
 Откройте в браузере: `http://127.0.0.1:5000`
 
 ## Структура проекта
-# Структура проекта
-
 fruit_counter
-
-- app.py
-- detector.py
-- requirements.txt
-- README.md
-- history.db
-- .gitignore
-- yolov8n.pt
-
-- templates
-  - index.html
-
-- static
-  - result_*.jpg
-
-- uploads
-
-- venv
+│
+├── app.py
+├── detector.py
+├── requirements.txt
+├── README.md
+├── history.db
+├── .gitignore
+├── yolov8n.pt
+│
+├── templates
+│   └── index.html
+│
+├── static
+│   └── result_*.jpg
+│
+├── uploads
+│
+└── venv
 
 ## Результаты тестирования
 
