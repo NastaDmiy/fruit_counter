@@ -56,7 +56,7 @@ python -m venv venv
 
 source venv/Scripts/activate # для Windows (Git Bash)
 
-## ИЛИ
+# ИЛИ
 
 venv\Scripts\activate # для Windows (CMD)
 
